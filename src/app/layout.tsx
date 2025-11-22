@@ -5,15 +5,12 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// YOUR ADSENSE ID
 const ADSENSE_ID = "ca-pub-1991660235760053";
 
 export const metadata: Metadata = {
   title: "LinkEarner - Professional Link Shortener",
   description: "Shorten links, track analytics, and manage your traffic.",
-  // THIS IS THE MAGIC TAG GOOGLE LOOKS FOR:
-  other: {
-    "google-adsense-account": ADSENSE_ID,
-  },
 };
 
 export default function RootLayout({
