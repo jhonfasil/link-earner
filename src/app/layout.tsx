@@ -35,12 +35,3 @@ export default function RootLayout({
     </html>
   );
 }
-```
-
-### Step 2: Push the changes
-You know the drill! Send this update to Vercel.
-
-```bash
-git add .
-git commit -m "Add AdSense meta tag for verification"
-git push
